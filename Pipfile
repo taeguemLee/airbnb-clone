@@ -5,8 +5,15 @@ name = "pypi"
 
 [packages]
 django = "==4.0.4"
+flake8 = "*"
 
 [dev-packages]
+autopep8 = "*"
+flake8 = "*"
+black = "*"
 
 [requires]
 python_version = "*"
+
+[pipenv]
+allow_prereleases = true
